@@ -16,7 +16,8 @@ namespace DoAnNhom2_LTWEB.Models
         public string? SDT { get; set; }
         public int TINHId { get; set; }
         public TINH? TINH { get; set; }
-        [Required(ErrorMessage = "Please enter adress")]
+        //thay adres => address
+        [Required(ErrorMessage = "Please enter address")]
         [StringLength(300, ErrorMessage = "The title name cannot be more than 300 characters.")]
         public string DIADIEM { get; set; }
         [Required(ErrorMessage = "Please enter email")]
