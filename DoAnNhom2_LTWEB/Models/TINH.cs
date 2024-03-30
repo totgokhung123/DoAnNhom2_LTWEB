@@ -2,6 +2,7 @@
 {
     public class TINH
     {
+       
         public int Id { get; set; }
         public string? TENTINH { get; set; }
         public string? TRANGTHAI { get; set; }

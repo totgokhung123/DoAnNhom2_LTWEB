@@ -14,5 +14,6 @@ namespace DoAnNhom2_LTWEB.Models
         //public string? CCCD { get; set; }
         ////public string? Email { get; set; }
         //public string? IMG { get; set; }
+      //ỵvzsfdghjk
     }
 }
