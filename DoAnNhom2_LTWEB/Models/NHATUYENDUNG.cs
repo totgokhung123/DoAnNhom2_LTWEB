@@ -6,6 +6,7 @@ namespace DoAnNhom2_LTWEB.Models
     public class NHATUYENDUNG 
     {
 
+
         public int Id { get; set; }
         [Required(ErrorMessage = "Please enter title name")]
         [StringLength(100, ErrorMessage = "The title name cannot be more than 100 characters.")]
